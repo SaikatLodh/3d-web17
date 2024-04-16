@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Area;
+    src: url(../fonts/654e0eb49d4c2d5de4445832_Area-RegularInktrap.ttf);
+
+    font-family: Rigelstar;
+    src: url(../fonts/Rigelstar.ttf);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h6 {
+    margin-bottom: 0px !important;
+}
+
+ul {
+
+    margin-bottom: 0px !important;
+    padding-left: 0px !important;
+
+}
+
+ul li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+
+.nav-font {
+    font-family: Area;
+    font-size: 15px;
+}
+
+
+.page1 {
+    position: relative;
+    height: 100vh;
+}
+
+.page1 canvas {
+    position: absolute;
+    top: 0%;
+    z-index: 99;
+
+}
+
+.overley-page1 {
+    z-index: 5;
+    width: 100vw;
+    height: 100vh;
+    opacity: .24;
+    background-color: #000;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.page1-h1 h1 {
+
+    z-index: 2;
+    color: #fc1234;
+    mix-blend-mode: difference;
+    margin: 0 auto;
+    font-family: Rigelstar, sans-serif;
+    font-size: 18vw;
+    font-weight: 400;
+    line-height: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+
+}
+
+.page1-p {
+    position: absolute;
+    color: #939393;
+    z-index: 9;
+    bottom: 20%;
+    width: 10%;
+    left: 5%;
+    
+}
+
+.footer-txt {
+    color: #f1f1f1;
+    font-family: Rigelstar;
+    font-size: 18vw;
+    line-height: .6;
+    text-align: center;
+    margin-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+.text-span {
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(#fff, #010101 85%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.text-span-2 {
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(#010101, #fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+.text-span-3 {
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(#fff, #000 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.text-span-4 {
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(#010101, #fff);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.text-span-5 {
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(#fff, #010101 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
